@@ -1,0 +1,163 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.header-item {
+  background-color: burlywood;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.game-board {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.game-board-item {
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.play-selection {
+  background-color: burlywood;
+  height: 150px;
+  width: 100px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.game-count-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.game-count {
+  background-color: burlywood;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.player-options {
+  background-color: burlywood;
+  height: auto;
+  width: 200px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+.player-option-items {
+  height: 30px;
+  width: 100px;
+  font-size: 20px;
+  margin: 5px;
+  background-color: burlywood;
+  border: 5px blanchedalmond thick;
+}
+
+.computer-selection-display {
+  background-color: burlywood;
+  height: 120px;
+  width: 400px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.computer-selection {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 50px;
+}
+
+.player-win {
+  background-color: burlywood;
+  height: 120px;
+  width: 120px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.player-win-count {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 50px;
+}
+
+.computer-win {
+  background-color: burlywood;
+  height: 120px;
+  width: 120px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.computer-win-count {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 50px;
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-result {
+  background-color: burlywood;
+  height: auto;
+  width: 400px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 30px;
+  font-style: bold;
+  text-align: center;
+}
+
+.restart-game-item {
+  margin-top: 20px;
+  background-color: burlywood;
+  height: 40px;
+  font-size: 30px;
+}
+
+.final-result {
+  background-color: burlywood;
+  height: auto;
+  width: 600px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.computer-selection-display-item {
+  text-align: center;
+}
+
+.player-option-display-item {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-style: bold;
+}
+
+.win-display {
+  text-align: center;
+}

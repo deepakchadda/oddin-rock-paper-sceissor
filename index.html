@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oddin project - rock - paper - sceissor</title>
+    <link rel="stylesheet" href="index.css">    
+</head>
+<body>
+
+    <div class="header">
+        <div class="header-item">
+            <h2>Let's play !!!</h2>
+            <h3>Player who wins 5 games first is the winner.</h3>
+            <div class="restart-game" id="restart-game-div" hidden>
+                <button id="RestartGameButton" onclick="RestartGame()" class="restart-game-item">Restart Game</button>
+            </div>        
+        </div>        
+    </div>
+
+    <div class="game-count-display">
+        <div class="game-count" id="game-count">
+            Game - 1
+        </div>
+    </div>
+    
+
+    <div class="game-board">       
+
+        <div class="player-options game-board-item" id="PlayerSelectionDiv">
+            <div class="player-option-display-item">Select your option</div>
+            <button class="player-option-items" onclick="checkCurrentRoundWinner('rock')">Rock</button><br />
+            <button class="player-option-items" onclick="checkCurrentRoundWinner('paper')">Paper</button><br />
+            <button class="player-option-items" onclick="checkCurrentRoundWinner('scissor')">Scissor</button><br />
+        </div>
+
+        <div class="computer-selection-display" id="computer-selection-display">
+            <span id="computer-selection-display-item">Computer is waiting for you. Let's start !!!</span>
+            <div class="computer-selection" id="computer-selection">
+                
+            </div>
+        </div>
+        
+
+        <div class="player-win win-display" id="player-win">
+            Player win
+            <div class="player-win-count" id="player-win-count">
+                0
+            </div>
+        </div>
+
+        
+        <div class="computer-win win-display" id="computer-win">
+            Computer win
+            <div class="computer-win-count" id="computer-win-count">0</div>
+        </div>
+        
+
+        <div class="final-result" id="final-result" hidden>
+            I don't know
+        </div>
+        
+    </div> 
+
+      
+    <div class="result">
+        <div class="game-result" id="game-result">
+            Game winner :             
+        </div>          
+    </div>  
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
